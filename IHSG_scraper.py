@@ -4,6 +4,7 @@ import pandas_datareader.data as web
 from openpyxl import load_workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 
+# delta_day is the difference between today and start date to take the data
 delta_day=3000
 start=(datetime.datetime.now()-datetime.timedelta(days=delta_day)).date()
 end=datetime.date.today()
