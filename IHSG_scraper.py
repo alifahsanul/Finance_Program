@@ -22,7 +22,7 @@ df=df.reindex_axis(["Volume","Open","Low","High","Close"],axis=1)
 
 rows=dataframe_to_rows(df)
 
-filename="C:\\Users\\alifahsanul\\Google Drive\\Finance\\Stock and Bond.xlsx"
+filename="\Stock and Bond.xlsx"
 sheetname="IHSG"
 wb=load_workbook(filename)
 ws=wb[sheetname]
