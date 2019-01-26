@@ -7,3 +7,6 @@ You have to change this code to match your chosen folder
 
 ## beta_pdf_scraper.py
 Take the data of [beta](https://en.wikipedia.org/wiki/Beta_(finance)) from pdf file provided in www.pefindo.com.  
+
+## bond_yield_scraper.py
+Scrape bond yield data from [here](https://asianbondsonline.adb.org/economy/?economy=ID)
